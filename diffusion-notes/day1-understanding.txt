@@ -1,0 +1,25 @@
+DIFFUSION MODELS - MY UNDERSTANDING (Day 1)
+
+1. What is a diffusion model?
+Inspired by thermodynamics in equilibrium, diffusion models add noise to original data step by step to get a complete noise and then learn to remove that noise to get back that original data. It learns to predict noise and remove it to get realistic data. 
+
+2. What does forward process do?
+It adds noise to the data gradually step by step by adding gaussian nose to eventually convert a sample to complete noise 
+
+2. What does reverse process do?
+It reverse the noising steps and remove the noise to create original sample 
+
+3. What does the neural network learn?
+The added noise 
+
+4. How do we generate new samples?
+Sampling random noise and removinging noise from it 
+
+5. What am I still confused about?
+- The probability math
+- The notation 
+- The equations 
+
+6. What makes sense?
+- The big picture of adding/removing noise
+- predicting noise instead of sample 
